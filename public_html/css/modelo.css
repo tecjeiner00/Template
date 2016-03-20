@@ -1,0 +1,167 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: brown;
+}
+#contenedor{
+    box-shadow: 5px 5px 10px #999;
+    border: solid #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 1050px;
+    width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header, #banner, #noticias, #tienda, #marcas{
+    background: #fff;
+    width: 780px;
+    height: 100px;
+}
+header{
+    width: 750px;
+    height: 100px;
+    padding: 8px 15px;
+    
+}
+header h1{
+    background: #ccc;
+    width: 240px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+header #menu{
+    background: #000;
+    width: 440px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+header #menu #menu1{
+    font-family: arial;
+    display: inline-block;
+    color: white;
+   
+}
+header #menu #menu2{
+    font-family: arial;
+    display: inline-block;
+    olor: white;
+   
+}
+header #menu #menu3{
+    font-family: arial;
+    display: inline-block;
+    color: white;
+}
+header #menu #menu4{
+    font-family: arial;
+    display: inline-block;
+    color: white;
+}
+#banner{
+    background: #666;
+    height: 300px;
+    
+}
+#noticias{
+    background: #fff;
+    height: 225px;
+    width: 760px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: center;
+    
+    
+}   
+#tienda{
+    width: 760px;
+    background: #666;
+    height: 190px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: center;
+}   
+#marcas{
+    background: #fff;
+    height: 100px;
+    
+}   
+footer{
+     background: #f21;
+    width: 780px;
+    height: 45px;
+    padding-top: 15px;
+}
+footer p{
+    font-family: cursive;
+    font-size: 10px;
+    text-align: center;
+}
+#noticias #noticia1{
+    background: #999;
+    width: 250px ;
+    height: 215px ;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+#noticias #noticia2{
+    background: #124EB0;
+    width: 250px ;
+    height: 215px ;
+    display: inline-block;
+    vertical-align: top;
+}
+#noticias #noticia3{
+    background: #F98E13;
+    width: 250px ;
+    height: 215px ;
+    display: inline-block;
+    vertical-align: top;    
+}
+.espacio{
+    width: 760px;
+    height: 10px;
+    
+}
+#tienda #producto1{    
+    background: #fff;
+    width: 170px ;
+    height: 180px ;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 2px;
+}
+#tienda #producto2{    
+    background: #fff;
+    width: 180px ;
+    height: 180px ;
+    display: inline-block;
+    vertical-align: top;
+   margin: 0px 2px;    
+}
+#tienda #producto3{    
+    background: #f1f1f1;
+    width: 180px ;
+    height: 180px ;
+    display: inline-block;
+    vertical-align: top; 
+    margin: 0px 2px;
+}
+#tienda #producto4{    
+    background: #ccc;
+    width: 180px ;
+    height: 180px ;
+    display: inline-block;
+    vertical-align: top; 
+    margin: 0px 2px;
+}
