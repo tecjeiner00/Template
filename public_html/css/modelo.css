@@ -4,8 +4,9 @@
     padding: 0;
 }
 body{
-    background:  #333;
-    background-image:url("web.jpg"); 
+    background:  #ccc;
+    background-position: center;
+   
     
 }
 #contenedor{
@@ -47,12 +48,13 @@ header #menu{
     background: burlywood;
     width: 440px;
     height: 100px;
-    display: inline-table;
+    dc
     vertical-align: middle;
     float: right;
     background-image: URL("css/bnr2.jpg");
     color: white;
     display: inline;
+    text-align: left;
     
 }
 
