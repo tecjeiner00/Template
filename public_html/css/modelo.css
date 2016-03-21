@@ -4,7 +4,9 @@
     padding: 0;
 }
 body{
-    background: brown;
+    background:  #333;
+    background-image:url("web.jpg"); 
+    
 }
 #contenedor{
     box-shadow: 5px 5px 10px #999;
@@ -15,12 +17,15 @@ body{
     width: 780px;
     margin-right: auto;
     margin-left: auto;
+    
 }
 header, #banner, #noticias, #tienda, #marcas{
     background: #fff;
     width: 780px;
     height: 100px;
+    
 }
+
 header{
     width: 750px;
     height: 100px;
@@ -34,37 +39,23 @@ header h1{
     display: inline-block;
     vertical-align: middle;
     float: left;
+    
+    
 }
+
 header #menu{
-    background: #000;
+    background: burlywood;
     width: 440px;
     height: 100px;
-    display: inline-block;
+    display: inline-table;
     vertical-align: middle;
     float: right;
-}
-header #menu #menu1{
-    font-family: arial;
-    display: inline-block;
+    background-image: URL("css/bnr2.jpg");
     color: white;
-   
+    display: inline;
+    
 }
-header #menu #menu2{
-    font-family: arial;
-    display: inline-block;
-    olor: white;
-   
-}
-header #menu #menu3{
-    font-family: arial;
-    display: inline-block;
-    color: white;
-}
-header #menu #menu4{
-    font-family: arial;
-    display: inline-block;
-    color: white;
-}
+
 #banner{
     background: #666;
     height: 300px;
@@ -96,7 +87,7 @@ header #menu #menu4{
     
 }   
 footer{
-     background: #f21;
+    background: black;
     width: 780px;
     height: 45px;
     padding-top: 15px;
@@ -105,15 +96,19 @@ footer p{
     font-family: cursive;
     font-size: 10px;
     text-align: center;
+    color: white;
+   
+    
 }
 #noticias #noticia1{
+    
     background: #999;
     width: 250px ;
     height: 215px ;
     display: inline-block;
-    vertical-align: top;
     
-}
+    }    
+
 #noticias #noticia2{
     background: #124EB0;
     width: 250px ;
@@ -165,3 +160,4 @@ footer p{
     vertical-align: top; 
     margin: 0px 2px;
 }
+
